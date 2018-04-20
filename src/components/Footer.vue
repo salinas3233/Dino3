@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id='Footer'>
         <small>copyright 2018</small>
     </div>
 </template>
@@ -11,6 +11,13 @@ export default {
 </script>
 
 <style scoped>
-
+#Footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+  }
+  small {
+    margin: 0 auto;
+  }
 </style>
 

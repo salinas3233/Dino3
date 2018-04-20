@@ -1,19 +1,15 @@
 <template>
     <div>
         <h2>Job Details</h2>
-        <h3>{{listings.title}}</h3>
+        <h4>{{jobData.title}}</h4>
+        <p>{{jobData.description}}</p>
     </div>
 </template>
 
 <script>
 export default {
     name:'JobDetails',
-    props: {
-        listings: {
-            type: Object,
-            required: true
-        }
-    }
+    props: ['jobData']
 }
 </script>
 
